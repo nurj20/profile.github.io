@@ -1,0 +1,55 @@
+body {
+    padding: 10px;
+    padding-left: 35px;
+    line-height: 26px;
+    font-size: large;
+    font-family: sans-serif;
+    padding-right: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+}
+
+div {
+    padding-top: 15px;
+    word-spacing: 10px;
+    width: 80vw;
+    margin: auto;
+}
+
+.social-icons {
+    margin-top: 20px;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    clear: both;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #1da1f2;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fab {
+    transition: all 500ms;
+}
+
+.fab:hover {
+    transform: scale(1.2)
+}
